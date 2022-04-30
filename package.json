@@ -1,0 +1,14 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "Practica 2 semana 3 Backend NodeJs Launch X",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Urivan",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
