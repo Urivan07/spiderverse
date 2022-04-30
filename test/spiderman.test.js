@@ -12,4 +12,11 @@ describe("Unit Tests for Spiderman class", () => {
     expect(TobeyMaguire.peliculas).toBe(3);
     expect(TobeyMaguire.estudio).toBe("Columbia Pictures​");
   });
+  test("2 - Use method getInfo", () => {
+
+    const AndrewGarfield = new Spiderman('Spider-Man', 38, 'Andrew Garfield', 2, 'Marvel Entertainment​')
+
+    //Validamos codigo funcione de la forma esperada
+    expect(AndrewGarfield.getInfo).toBe("Hey, I'm Andrew Garfield from Marvel Entertainment​");
+  });
 });
