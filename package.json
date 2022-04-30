@@ -4,7 +4,8 @@
   "description": "Practica 2 semana 3 Backend NodeJs Launch X",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "author": "Urivan",
   "license": "ISC",
